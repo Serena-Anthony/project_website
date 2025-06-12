@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 
-const importAll = (r) => r.keys().map(r);
-const rawImages = importAll(require.context('../media/cvi_test_material', false, /\.(jpeg|jpg|png|gif)$/));
+// const importAll = (r) => r.keys().map(r);
+// const rawImages = importAll(require.context('../media/cvi_test_material', false, /\.(jpeg|jpg|png|gif)$/));
 
 const rows = 4;
 const cols = 4;
 const totalCells = rows * cols;
 
-const colorOptions = ['red', 'blue', 'green', 'orange', 'purple', 'yellow', 'pink', 'grey'];
+// const colorOptions = ['red', 'blue', 'green', 'orange', 'purple', 'yellow', 'pink', 'grey'];
 const imageOptions = {
   red: 'red.jpeg',
   blue: 'blue.jpeg',
